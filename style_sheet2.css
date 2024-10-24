@@ -1,0 +1,129 @@
+/* This sets the margin and font for the entire page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+}
+
+/* This sets style for the header */
+header {
+    background-color:  #333;
+    /* Sets the backround of the header to dark grey */
+    color: #FFF;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*This styles the h1 tag in the header*/
+h1 {
+    margin-right: auto;
+}
+
+/*This adds a class caled logo for the image in the header*/
+.logo { 
+    margin-left: 1rem;
+    height: 3rem;
+}
+
+
+/*This styles the unordered list in the naigation*/
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/*This styles the list items in the navigation*/
+nav li {
+    margin: 0 10px;
+}
+
+/*This styles the links in he navigation*/
+nav a {
+    color: #fff;
+    text-decoration: none;
+    }
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#overview {
+    text-align: left; /*Aligns rhe text of the #landing element to the left*/
+    margin-top: 50x; /*Adds a margin of 50 pixels to the top of the #landing element*/
+}
+
+.largeheading {
+    font-size: 5rem; /*Sets the font of the .largeheading element to 5rem*/
+    color: dodgerblue; /*Sets the tex color of the .largeheading element to dodgerblue*/
+    font-weight: bold; /*Sets the font weight of the .largeheading to bold*/
+    text-align: center;
+}
+
+#overview p {
+    font-size: 24px; /*sets the font size of the paragraphs in the #landing element to 24px*/
+    line-height: 1.5; /*Sets the line height of the paragraphs in the #landing element to 0.5*/
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+}
+
+.social_media {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.social_media li {
+    display: inline-block;
+    margin-right: 10px;  
+}
+
+.social_media li img {
+    width: 50px;
+    height: 50px;
+}
+
+video {
+    width: 50vw;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.point {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.point img {
+    width: 80px;
+    margin-right: 10px;
+}

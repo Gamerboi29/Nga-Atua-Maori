@@ -1,0 +1,165 @@
+header {
+    background-color: #478AC9;
+    /* Sets the backround of the header to dark grey */
+    color: #FFF;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-right: auto;
+}
+
+.logo { 
+    margin-left: 1rem;
+    height: 3rem;
+}
+
+main {
+    max-width: 1425px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 5rem;
+} 
+
+.container {
+    display:  flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.landing_p {
+    font-size: 2rem;
+}
+
+.landing_img {
+    width: 900px;
+    height: auto;
+}
+
+.story_img {
+    width: 400px;
+    height: auto;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 125px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+/*  background-color: #2196F3;*/
+  padding: 10px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto;
+/*  background-color: #2196F3;*/
+  padding: 10px;
+}
+
+.grid-item {
+/*  background-color: rgba(255, 255, 255, 0.8);*/
+/*  border: 1px solid rgba(0, 0, 0, 0.8);*/
+  padding: 20px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.grid-col-span2 {
+  padding: 20px;
+  font-size: 20px;
+  text-align: left;
+  grid-column: span 2;
+}
+
+.grid-item2 {
+/*  background-color: rgba(255, 255, 255, 0.8);*/
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  align-content: center;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+.cup_img {
+    width: 350px;
+    height: 341px;
+}
+
+.story {
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+
+.story_p {
+    margin: 10px;
+    padding: 20px;
+  font-size: 20px;
+  text-align: left;
+  align-content: center;
+}
+
+.story_img {
+    grid-row: span 2;
+}
+
+button {
+    background-color: aqua;
+     width: 100px;
+    height: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+}
+
+.social_media {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.social_media li {
+    display: inline-block;
+    margin-right: 10px;  
+}
+
+.social_media li img {
+    width: 50px;
+    height: 50px;
+}
